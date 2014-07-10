@@ -24,7 +24,7 @@ The primary function for the module is ```logging.log()```, but is rarely invoke
 ***Table describing Logging Levels***
 
 Level | When it’s used | Numerical Value | Function Name
--|
+----- | -------------- | --------------- | -------------
 DEBUG | Detailed information, typically of interest only when diagnosing problems. | 10 | ```logging.debug()```
 INFO | Confirmation that things are working as expected. | 20 | ```logging.info()```
 WARNING | An indication that something unexpected happened, or indicative of some problem in the near future (e.g. ‘disk space low’). The software is still working as expected. | 30 | ```logging.warning()```
